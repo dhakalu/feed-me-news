@@ -2,7 +2,7 @@ from typing import Dict, List
 from xml.etree import ElementTree
 from feed.articles.NewsArticleImage import NewsArticleImage
 from feed.articles.NewsArticleSummary import NewsArticleSummary
-from feed.utils.request import get_xml
+import feed.utils.request as r
 from feed.utils.xml import (
     get_namespaces,
     extract_text_from_attr,
@@ -37,7 +37,7 @@ def get_home() -> List[NewsArticleSummary]:
     """
     Fetches list of news articles published on NYTime's HomePage
     """
-    ny_times_home, schema = get_xml('https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml')
+    ny_times_home, schema = r.get_xml('https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml')
     name_spaces = get_namespaces(schema)
     return parse(ny_times_home.getroot(), name_spaces)
 
