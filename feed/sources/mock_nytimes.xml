@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Top Stories</title>
+    <link>https://www.nytimes.com</link>
+    <atom:link href="https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" rel="self" type="application/rss+xml"></atom:link>
+    <description></description>
+    <language>en-us</language>
+    <copyright>Copyright 2022 The New York Times Company</copyright>
+    <lastBuildDate>Tue, 18 Oct 2022 14:40:50 +0000</lastBuildDate>
+    <pubDate>Tue, 18 Oct 2022 14:35:29 +0000</pubDate>
+    <image>
+      <title>NYT &gt; Top Stories</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com</link>
+    </image>
+    <item>
+      <title>Poll Shows Voters See Democracy in Peril, but Saving It Isn’t a Priority</title>
+      <link>https://www.nytimes.com/2022/10/18/us/politics/midterm-election-voters-democracy-poll.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2022/10/18/us/politics/midterm-election-voters-democracy-poll.html</guid>
+      <atom:link href="https://www.nytimes.com/2022/10/18/us/politics/midterm-election-voters-democracy-poll.html" rel="standout"></atom:link>
+      <description>A New York Times/Siena College poll found that other problems have seized voters’ focus — even as many do not trust this year’s election results and are open to anti-democratic candidates.</description>
+      <dc:creator>Nick Corasaniti, Michael C. Bender, Ruth Igielnik and Kristen Bayrakdarian</dc:creator>
+      <pubDate>Tue, 18 Oct 2022 07:00:13 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Project Democracy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Polls and Public Opinion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Voting and Voters</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Midterm Elections (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Democracy (Theory and Philosophy)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rumors and Misinformation</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2022/10/17/us/oct-poll-comfortable-voting-election-denier-promo/oct-poll-comfortable-voting-election-denier-promo-moth.png" width="151"></media:content>
+    </item>
+    <item>
+      <title>Björk, Still Using Style to Captivate</title>
+      <link>https://www.nytimes.com/2022/10/15/style/bjork-still-using-style-to-captivate.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2022/10/15/style/bjork-still-using-style-to-captivate.html</guid>
+      <atom:link href="https://www.nytimes.com/2022/10/15/style/bjork-still-using-style-to-captivate.html" rel="standout"></atom:link>
+      <description>A look back at some of the artist’s best looks over the years, as she releases her 10th studio album, “Fossora.”</description>
+      <dc:creator>Indya Brown</dc:creator>
+      <pubDate>Sat, 15 Oct 2022 09:00:37 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pop and Rock Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bjork</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2022/10/16/fashion/13bjork20/13bjork20-moth.jpg" width="151"></media:content>
+      <media:credit>One Little Independent Records</media:credit>
+      <media:description>Björk, in the video for her song “Ovule” off her new album “Fossora,” wore a dress designed by Gucci’s Alessandro Michele.</media:description>
+    </item>
+  </channel>
+</rss>
