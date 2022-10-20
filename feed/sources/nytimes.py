@@ -9,6 +9,8 @@ from feed.utils.xml import (
     extract_text_from_tag
 )
 
+# todo convert to class for factory
+
 def mapper(item: ElementTree.Element, name_spaces) -> NewsArticleSummary:
     """
         Converts xml Element of item to NewsArticleSummary
@@ -31,7 +33,6 @@ def parse(xml_string: ElementTree.Element, name_spaces: Dict[str, str]) -> List[
     channel = xml_string.findall('channel')[0]
     return list(map(lambda x: mapper(x, name_spaces), channel.findall('item')))
         
-
 
 def get_home() -> List[NewsArticleSummary]:
     """
