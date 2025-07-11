@@ -1,0 +1,13 @@
+[project]
+name = "feed-me-news"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "certifi>=2025.7.9",
+    "charset-normalizer>=3.4.2",
+    "idna>=3.10",
+    "requests>=2.32.4",
+    "urllib3>=2.5.0",
+]
