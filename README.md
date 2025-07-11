@@ -47,7 +47,24 @@ feed-me-news/
 
 ## Installation
 
-This project requires Python 3.13 or higher.
+This project requires Python 3.13 or higher and [uv](https://docs.astral.sh/uv/) for dependency management.
+
+### Prerequisites
+
+First, install uv if you haven't already:
+
+```bash
+# On macOS and Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# On Windows
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+# Or using pip
+pip install uv
+```
+
+### Setup
 
 1. Clone the repository:
 ```bash
@@ -55,13 +72,9 @@ git clone <repository-url>
 cd feed-me-news
 ```
 
-2. Install dependencies using uv or pip:
+2. Install dependencies:
 ```bash
-# Using uv (recommended)
 uv sync
-
-# Or using pip
-pip install -r requirements.txt
 ```
 
 ## Usage
@@ -71,7 +84,7 @@ pip install -r requirements.txt
 Run the main application to fetch and display news from NY Times:
 
 ```bash
-python main.py
+uv run python main.py
 ```
 
 ### Adding New Sources
@@ -118,7 +131,7 @@ The project includes several utility functions in [`feed/utils/xml.py`](feed/uti
 Run the test suite:
 
 ```bash
-python -m unittest discover tests/
+uv run python -m unittest discover tests/
 ```
 
 ### Test Structure
