@@ -1,4 +1,7 @@
 class NewsArticleImage:
+    """
+        Representation of an image
+    """
 
     def __init__(self, url: str, credit: str, alt: str):
         self.url =url
